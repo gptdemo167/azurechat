@@ -22,7 +22,7 @@ export const StartNewChat: FC<Prop> = (props) => {
             まだまだ未熟なAIですが、皆様のご協力により、AIの成長を目指しています。
 
           </p>
-          <p>下記の➕を押して会話を開始できます</p>
+          <p>下記の➕を押して会話を開始できます。</p>
         </div>
         <div className="-mx-1 -mb-1 p-1 flex flex-col border-t bg-muted">
           <NewChat />
