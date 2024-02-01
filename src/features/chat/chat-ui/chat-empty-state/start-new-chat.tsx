@@ -28,6 +28,21 @@ export const StartNewChat: FC<Prop> = (props) => {
           <NewChat />
         </div>
       </Card>
+       <Card className="col-span-3 flex flex-col gap-5 p-5 ">
+        <Typography variant="h4" className="text-primary">
+        【お知らせ】
+        </Typography>
+        <div className="flex flex-col gap-2">
+          <p className="">
+          テスト
+
+          </p>
+          
+        </div>
+        <div className="-mx-1 -mb-1 p-1 flex flex-col border-t bg-muted">
+          <NewChat />
+        </div>
+      </Card>
     </div>
   );
 };
